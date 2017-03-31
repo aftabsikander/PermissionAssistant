@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_rationale_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/spacing_medium"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/permission_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/spacing_medium"
+            android:gravity="center"
+            android:text="@string/permission_title_phone_state"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xlarge"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/permission_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/spacing_medium"
+            android:adjustViewBounds="true"
+            android:maxHeight="120dp"
+            android:src="@drawable/phone_state" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/permission_message_first"
+            style="@style/textBoldMediumWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/spacing_medium"
+            android:autoLink="all"
+            android:gravity="center"
+            android:maxLines="6"
+            android:text="@string/permission_phone_state_message_first" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/permission_message_second"
+            style="@style/textBoldMediumWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/spacing_medium"
+            android:autoLink="all"
+            android:gravity="center"
+            android:maxLines="6"
+            android:text="@string/permission_phone_state_message_second" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/content_padding_large"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/permission_request"
+            style="@style/PermissionButtonTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/permission_continue" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

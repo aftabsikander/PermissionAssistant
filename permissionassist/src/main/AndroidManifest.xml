@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aftabsikander.permissionassist">
+
+    <application>
+        <activity
+            android:name=".ui.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/PermissionAssistant.Transparent" />
+    </application>
+
+</manifest>

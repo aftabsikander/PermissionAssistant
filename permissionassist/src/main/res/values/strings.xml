@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Permission</string>
+    <string name="permission_phone_state_message_first">Application needs the requested permissions to work correctly.</string>
+    <string name="permission_phone_state_message_second">Continue will take you to system settings</string>
+    <string name="permission_continue">Continue</string>
+    <string name="permission_title_phone_state">Phone State</string>
+
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+</resources>
