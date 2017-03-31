@@ -76,7 +76,7 @@ Optionally, for a finer control, you can have your `Activity` / `Fragment` imple
 the `PermissionCallbacks` interface.
 
 ```java
-public class MainActivity extends AppCompatActivity implements PermissionAssistant.PermissionCallbacks {
+public class MainActivity extends AppCompatActivity implements PermissionCallbacks {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -114,7 +114,7 @@ these permissions from the user and they must be changed in app settings. You ca
 method `PermissionAssistant.somePermissionPermanentlyDenied(...)` to display a dialog to the
 user in this situation and direct them to the system setting screen for your app:
 
-```
+```java
 @Override
 public void onPermissionsDenied(int requestCode, List<String> perms) {
     Log.d(TAG, "onPermissionsDenied:" + requestCode + ":" + perms.size());
