@@ -18,7 +18,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.github.aftabsikander:PermissionAssistant:1.0.0'
+   compile 'com.github.aftabsikander:PermissionAssistant:v1.0'
 }
 ```
 
