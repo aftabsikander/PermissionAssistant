@@ -1,19 +1,27 @@
-# PermissionAssistant
+# PermissionAssistant [![Build Status][1]][2]
 
 PermissionAssistant is a wrapper library to simplify basic system permissions logic when targeting
 Android M or higher.
 
-<!-- 
+ 
 ## Installation
 
 PermissionAssistant is installed by adding the following dependency to your `build.gradle` file:
 
 ```groovy
+allprojects {
+       repositories {
+           maven { 
+                url 'https://jitpack.io'
+                }
+           }
+}
+
 dependencies {
-    compile 'pub.devrel:PermissionAssistant:0.3.0'
+    compile 'com.github.aftabsikander:PermissionAssistant:1.0.0'
 }
 ```
- -->
+
 
 ## Usage
 
@@ -156,7 +164,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 * [Aftab Ali](https://github.com/aftabsikander)
 
-<!-- 
-[1]: https://travis-ci.org/googlesamples/PermissionAssistant.svg?branch=master
-[2]: https://travis-ci.org/googlesamples/PermissionAssistant
- -->
+[1]: https://travis-ci.org/aftabsikander/PermissionAssistant.svg?branch=master
+[2]: https://travis-ci.org/aftabsikander/PermissionAssistant
+
