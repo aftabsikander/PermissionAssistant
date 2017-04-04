@@ -138,6 +138,24 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
+## Todo
+
++ [ ] Customize Support For Rationale Dialog.
++ [ ] Snack Bar Builder
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Majority of code taken from [EasyPermission](https://github.com/googlesamples/easypermissions) a big thanks to them.
+
+# Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to me.
+
+# Authors
+
+* [Aftab Ali](https://github.com/aftabsikander)
+
 <!-- 
 [1]: https://travis-ci.org/googlesamples/PermissionAssistant.svg?branch=master
 [2]: https://travis-ci.org/googlesamples/PermissionAssistant
